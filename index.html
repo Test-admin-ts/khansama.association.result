@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<title>বৃত্তি পরীক্ষার ফলাফল</title>
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Bengali:wght@100..900&display=swap" rel="stylesheet">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Bootstrap -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- QR Library -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrious/4.0.2/qrious.min.js"></script>
+
+<!-- html2pdf Library -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container py-4">
+  <h2 class="text-center text-primary mb-3">খানসামা উপজেলা কিন্ডারগার্টেন এসোসিয়েশন     </h2>
+  <h5 class="text-center text-sucsess ">খানসামা,দিনাজপুর</h5>
+<br>
+<div class="container py-4">
+  <h3 class="text-center  mb-3">বৃত্তি পরীক্ষা-২০২৫ ফলাফল  দেখুন</h3>
+
+  <div class="row justify-content-center mb-4 no-print">
+    <div class="col-md-4">
+      <input id="rollInput" class="form-control mb-2" maxlength="4" 
+    inputmode="numeric" placeholder="রোল লিখুন">
+      
+      <button id="searchBtn" class="btn btn-primary w-100">Search</button>
+   <marquee class="text-danger mt-2">(রেজাল্টের পিডিএফ ডাউনলোড  করার জন্য ব্রাউজারে লিংকটি  খুলুন এবং ডেক্সটপ মুড চালু করুন )</marquee>
+    </div>
+  </div>
+
+  <!-- RESULT DISPLAY -->
+  <div id="printArea" class="a4-sheet d-none"></div>
+
+  <div class="text-center mt-3 no-print">
+    <button id="printBtn" type="button" class="btn btn-success d-none">
+      ⬇️ Download PDF / Print
+    </button><br>
+    <p>রেজাল্টে বানান ভুল বা অন্য সমস্যার জন্য মেসেজ  করুন(09696646071)</p>
+  </div>
+</div>
+<br><br><br>
+<footer class="text-center container mt-5 "><a style="text-decoration:none;" href="https://toufik-sarwar.github.io/Portfolio/">&copy;<span class="toufik-name">Tech Shine</span> <img src="ts-logo.png" style="width:50px;height:60px;border-radias:50px"></a> </footer>
+
+<section style="display:none">
+  <h1>খানসামা উপজেলা কিন্ডারগার্টেন এসোসিয়েশন বৃত্তি পরীক্ষা রেজাল্ট</h1>
+  <p>
+    খানসামা উপজেলার সকল কিন্ডারগার্টেন স্কুলের যৌথ উদ্যোগে আয়োজিত
+    ৫ম শ্রেণির বৃত্তি পরীক্ষা ২০২৫ এর ফলাফল।
+    এখানে রোল নম্বর দিয়ে অনলাইনে রেজাল্ট দেখা ও যাচাই করা যাবে।
+  </p>
+</section>
+
+<script src="data.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
