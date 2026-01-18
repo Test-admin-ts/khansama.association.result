@@ -79,7 +79,7 @@ function showResult() {
   // QR code: link to verify.html
   new QRious({
     element: document.getElementById("qr"),
-    value: `verify.html?roll=${student.roll}`,
+    value: `https://test-admin-ts.github.io/khansama.association.result/verify.html?roll=${student.roll}`,
     size: 120
   });
 
